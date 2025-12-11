@@ -71,7 +71,7 @@ PRODUCTS.forEach((product, index) => {
   displayContainer.appendChild(card);
 
   card.addEventListener("click", () => {
-    alert(`${product.name} has been added to the cart`);
+    alert(`${product.name}`);
   });
 });
 
